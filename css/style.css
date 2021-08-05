@@ -1,0 +1,101 @@
+body {
+    width : 960px ;
+    margin: auto;
+}
+.print{
+
+    float : right ;
+    color : grey ;
+    
+    
+}
+.knife{
+    padding-top: 30px ;
+}
+.headerS{
+    float : right ;
+    padding-top : 20px ;
+    
+}
+header h1:nth-child(3)
+{   
+    font-size: 35px ;
+    font-family: cursive ;
+    font-weight: bolder ;
+    padding-left: 10px;
+    display:inline ;
+}
+header article:nth-child(4)
+{    
+    font-size: 13px ;
+    color : grey ;
+}
+/////////////////////////////////
+h1 {
+    font-size: 40px ;
+}
+
+ main section:nth-child(1) img:nth-child(2){
+margin-left: 95% ;
+width : 20px ;
+}
+main section:nth-child(1) p:nth-child(3){
+   color : grey ; 
+}
+/*            */
+
+/****/
+article{
+    padding-top: 30px ;
+    width : 960px ;
+    display: grid ;
+    grid-template-rows: auto auto auto;
+    gap : 16px ;
+    font-size: 18px ;
+    color : grey ;
+}
+////****/
+fieldset{
+    background-image: url('/img/list-bg.png');
+height : 285px ;
+width : 930px ;
+}
+form{
+padding-left: 50px ;
+padding-right: 10px ;
+padding-top: 45px ;
+    font-size: 20px ;
+    font-weight: bolder;
+    display: grid ;
+grid-template-columns: 40px auto 40px auto;
+gap : 11px ;
+}
+/***********/
+.lastP{
+    float : left ;
+    padding-top: 10px ;
+}
+h2{
+    font-size : 30px ;
+}
+section p:nth-child(3){
+    color :grey ;
+    width : 500px ;
+    padding-left : 90px ;
+}
+.lastS{
+    padding-left: 80px ;
+
+}
+footer{
+    padding-top: 100px ;
+    text-align : center ;
+}
+.lastI{
+    color : white ;
+    background-color:coral ;
+    font-size: 20px ;
+    float : right ;
+    width : 250px ;
+    height : 70px ;
+}
